@@ -70,7 +70,6 @@
 .post-content {
   flex-grow: 1;
   margin-bottom: 20px;
-  direction: rtl;
 }
 
 /* Post Tags */
@@ -189,10 +188,6 @@
   transform: scale(0.9);
   opacity: 0;
   z-index: 2;
-}
-
-.post-contentt {
-  direction: rtl;
 }
 
 .lightbox.active .lightbox-content {
