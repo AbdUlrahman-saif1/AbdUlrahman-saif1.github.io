@@ -42,7 +42,7 @@ async function displayPosts() {
           <h3 class="text-primary font-heading font-20 m-0">${post.title}</h3>
           <span class="post-date text-body font-14">${post.date}</span>
         </div>
-        <p class="post-content text-body font-poppins line-height-1-8">${
+        <p class="post-content text-body font-poppins line-height-1-8" dir="auto">${
           post.content
         }</p>
         <div class="post-footer d-flex justify-between align-center mt-20">
