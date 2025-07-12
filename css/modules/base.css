@@ -22,7 +22,7 @@ div,
 footer {
   transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease,
     box-shadow 0.3s ease, margin 0.3s ease, padding 0.3s ease,
-    text-shadow 0.3s ease, opacity 0.3s ease   !important;
+    text-shadow 0.3s ease, opacity 0.3s ease !important;
   -webkit-transition: background-color 0.3s ease, color 0.3s ease,
     transform 0.3s ease, box-shadow 0.3s ease, margin 0.3s ease,
     padding 0.3s ease !important;
@@ -58,7 +58,7 @@ a {
   color: inherit;
 }
 
-div section:not(:nth-of-type(1)),
+section:not(:nth-of-type(1)),
 .contact {
   padding: 0 0 var(--section-spacing);
 }

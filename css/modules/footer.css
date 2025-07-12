@@ -42,7 +42,6 @@ footer ul li {
 
 footer ul li:hover a {
   padding-left: 8px;
-  text-shadow: var(--text-shadow);
 }
 
 footer ul li::marker {
@@ -75,7 +74,9 @@ footer .footer-social a {
   display: inline-block;
 }
 
-footer .footer-social a:hover {
+footer .footer-social a:hover,
+.mailto:hover,
+footer ul li:hover a {
   color: rgba(var(--h1-color), 0.8);
   text-decoration: none;
 }

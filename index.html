@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Abdelrahman Saif's personal services" />
+    <meta name="description" content="Abdelrahman Saif's portfolio" />
     <meta name="keywords" content="services, Graphic Design, Social Media" />
     <link rel="icon" type="image/png" href="img/favIcon.png" />
     <title>Abdelrahman Saif-عبدالرحمن سيف</title>
@@ -23,52 +23,8 @@
     </script>
   </head>
   <body>
-    <div class="pseudo-nav d-flex flex-column justify-center align-center">
-      <div
-        class="sec pos-relative d-flex justify-center align-center w-100 mb-15 mt-15 active"
-        data-target="Home"
-      >
-        <span></span>
-        <span class="pos-absolute">Home</span>
-      </div>
-      <div
-        class="sec pos-relative d-flex justify-center align-center w-100 mb-15 mt-15"
-        data-target="Skills"
-      >
-        <span></span>
-        <span class="pos-absolute">Skills</span>
-      </div>
-      <div
-        class="sec pos-relative d-flex justify-center align-center w-100 mb-15 mt-15"
-        data-target="services"
-      >
-        <span></span>
-        <span class="pos-absolute">Services</span>
-      </div>
-      <div
-        class="sec pos-relative d-flex justify-center align-center w-100 mb-15 mt-15"
-        data-target="Stats"
-      >
-        <span></span>
-        <span class="pos-absolute">Stats</span>
-      </div>
-      <div
-        class="sec pos-relative d-flex justify-center align-center w-100 mb-15 mt-15"
-        data-target="Experience"
-      >
-        <span></span>
-        <span class="pos-absolute">Experience</span>
-      </div>
-      <div
-        class="sec pos-relative d-flex justify-center align-center w-100 mb-15 mt-15"
-        data-target="v-experience"
-      >
-        <span></span>
-        <span class="pos-absolute">Volunteering Experience</span>
-      </div>
-    </div>
-    <div class="g">
-      <div class="nav pos-absolute w-100">
+    <header>
+      <nav class="nav pos-absolute w-100">
         <div class="container p-40 pos-relative d-flex justify-between">
           <div class="logo d-flex align-center">
             <a href="#" data-translat="logo">
@@ -141,8 +97,56 @@
             </div>
           </div>
         </div>
-      </div>
+      </nav>
+    </header>
 
+    <main>
+      <!-- section polits -->
+      <div class="pseudo-nav d-flex flex-column justify-center align-center">
+        <div
+          class="sec pos-relative d-flex justify-center align-center w-100 mb-15 mt-15 active"
+          data-target="Home"
+        >
+          <span></span>
+          <span class="pos-absolute">Home</span>
+        </div>
+        <div
+          class="sec pos-relative d-flex justify-center align-center w-100 mb-15 mt-15"
+          data-target="Skills"
+        >
+          <span></span>
+          <span class="pos-absolute">Skills</span>
+        </div>
+        <div
+          class="sec pos-relative d-flex justify-center align-center w-100 mb-15 mt-15"
+          data-target="services"
+        >
+          <span></span>
+          <span class="pos-absolute">Services</span>
+        </div>
+        <div
+          class="sec pos-relative d-flex justify-center align-center w-100 mb-15 mt-15"
+          data-target="Stats"
+        >
+          <span></span>
+          <span class="pos-absolute">Stats</span>
+        </div>
+        <div
+          class="sec pos-relative d-flex justify-center align-center w-100 mb-15 mt-15"
+          data-target="Experience"
+        >
+          <span></span>
+          <span class="pos-absolute">Experience</span>
+        </div>
+        <div
+          class="sec pos-relative d-flex justify-center align-center w-100 mb-15 mt-15"
+          data-target="v-experience"
+        >
+          <span></span>
+          <span class="pos-absolute">Volunteering Experience</span>
+        </div>
+      </div>
+      <!-- contact -->
       <div class="cont">
         <div class="main-contact w-fit">
           <span
@@ -194,7 +198,7 @@
           </div>
         </div>
       </div>
-
+      <!-- Home -->
       <section id="home" class="curved home pos-relative">
         <div
           class="container p-40 pos-relative d-flex justify-center flex-column"
@@ -264,7 +268,7 @@
           </div>
         </div>
       </section>
-
+      <!-- Skills -->
       <section id="skills" class="skills">
         <div class="container p-40 pos-relative">
           <h2
@@ -477,7 +481,7 @@
           </div>
         </div>
       </section>
-
+      <!-- Services -->
       <section id="services" class="services bg-light">
         <div class="container p-40 pos-relative">
           <h2
@@ -614,7 +618,7 @@
           </div>
         </div>
       </section>
-
+      <!-- Stats -->
       <section class="my-stats" id="stats">
         <div class="container p-40 pos-relative">
           <h2
@@ -675,7 +679,7 @@
           </div>
         </div>
       </section>
-
+      <!-- Experience -->
       <section id="experience" class="experience bg-light">
         <h2
           class="header w-fit text-body text-uppercase text-center pos-relative"
@@ -687,7 +691,7 @@
           <div class="experience-list experience-listt"></div>
         </div>
       </section>
-
+      <!-- Volunteering Experience -->
       <section id="v-experience" class="v-experience experience bg-light">
         <h2
           class="c-header header w-fit text-body text-uppercase text-center pos-relative"
@@ -699,7 +703,7 @@
           <div class="v-experience-list experience-list"></div>
         </div>
       </section>
-    </div>
+    </main>
 
     <footer class="bg-light">
       <div class="container">
@@ -728,7 +732,9 @@
           <h4>Contact</h4>
           <p>
             Email:<br />
-            abduulrahmansaif@gmail.com
+            <a class="mailto" href="mailto:abduulrahmansaif@gmail.com"
+              >abduulrahmansaif@gmail.com</a
+            >
           </p>
           <p>
             Phone:<br />

@@ -23,18 +23,8 @@
     </script>
   </head>
   <body>
-    <div class="pseudo-nav d-flex flex-column justify-center align-center">
-      <div
-        class="sec pos-relative d-flex justify-center align-center w-100 mb-15 mt-15 active"
-        data-target="design"
-      >
-        <span></span>
-        <span class="pos-absolute">Designs</span>
-      </div>
-    </div>
-
-    <div class="g">
-      <div class="nav pos-absolute w-100">
+    <header>
+      <nav class="nav pos-absolute w-100">
         <div class="container p-40 pos-relative d-flex justify-between">
           <div class="logo d-flex align-center">
             <a href="index.html" data-translat="logo">
@@ -107,8 +97,19 @@
             </div>
           </div>
         </div>
-      </div>
+      </nav>
+    </header>
 
+    <main>
+      <div class="pseudo-nav d-flex flex-column justify-center align-center">
+        <div
+          class="sec pos-relative d-flex justify-center align-center w-100 mb-15 mt-15 active"
+          data-target="design"
+        >
+          <span></span>
+          <span class="pos-absolute">Designs</span>
+        </div>
+      </div>
       <div class="cont">
         <div class="main-contact w-fit">
           <span
@@ -214,7 +215,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </main>
 
     <footer class="bg-light">
       <div class="container">
@@ -230,9 +231,9 @@
         <div class="footer-links">
           <h4>Quick Links</h4>
           <ul>
-            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Home</a></li>
             <li><a href="accountManagement.html">Account Management </a></li>
-            <li><a href="#">Graphic Design</a></li>
+            <li><a href="designs.html">Graphic Design</a></li>
             <li><a href="posts.html">Content Creation</a></li>
             <li><a href="marketingStrategy.html">Marketing Strategy</a></li>
             <li><a href="marketingAnalysis.html">Marketing Analysis</a></li>
@@ -243,7 +244,9 @@
           <h4>Contact</h4>
           <p>
             Email:<br />
-            abduulrahmansaif@gmail.com
+            <a class="mailto" href="mailto:abduulrahmansaif@gmail.com"
+              >abduulrahmansaif@gmail.com</a
+            >
           </p>
           <p>
             Phone:<br />
