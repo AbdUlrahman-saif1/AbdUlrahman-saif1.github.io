@@ -119,8 +119,9 @@
   {
     "type": "social",
     "isCampaign": true,
+    "company": "SUN EGYPT TRAVEL",
     "img": "img/designs/Social/SUN EGYPT TRAVEL Project/0.webp",
-    "title": "SUN EGYPT TRAVEL ",
+    "title": "SUN EGYPT TRAVEL",
     "alt": "SUN EGYPT TRAVEL",
     "campaignImages": [
       "img/designs/Social/SUN EGYPT TRAVEL Project/1.webp",
@@ -134,4 +135,5 @@
     ]
   }
 ]
+
 
