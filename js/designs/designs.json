@@ -115,5 +115,23 @@
       "img/designs/Teachers_ designs/5.jpg",
       "img/designs/Teachers_ designs/6.jpg"
     ]
+  },
+  {
+    "type": "social",
+    "isCampaign": true,
+    "img": "img/designs/Social/SUN EGYPT TRAVEL Project/0.webp",
+    "title": "SUN EGYPT TRAVEL ",
+    "alt": "SUN EGYPT TRAVEL",
+    "campaignImages": [
+      "img/designs/Social/SUN EGYPT TRAVEL Project/1.webp",
+      "img/designs/Social/SUN EGYPT TRAVEL Project/2.webp",
+      "img/designs/Social/SUN EGYPT TRAVEL Project/3.webp",
+      "img/designs/Social/SUN EGYPT TRAVEL Project/4.webp",
+      "img/designs/Social/SUN EGYPT TRAVEL Project/5.webp",
+      "img/designs/Social/SUN EGYPT TRAVEL Project/6.webp",
+      "img/designs/Social/SUN EGYPT TRAVEL Project/7.webp",
+      "img/designs/Social/SUN EGYPT TRAVEL Project/8.webp"
+    ]
   }
 ]
+
